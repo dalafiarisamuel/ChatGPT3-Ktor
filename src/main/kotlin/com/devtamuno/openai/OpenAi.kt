@@ -35,7 +35,6 @@ fun Routing.openAiQuery() {
             )
         }
 
-
         val result = withTimeoutOrNull(timeMillis = 10_000) {
             with(ChatGptHttpClient) {
                 post(COMPLETIONS) {

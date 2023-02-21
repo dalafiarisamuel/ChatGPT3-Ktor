@@ -6,7 +6,6 @@ object OpenAiModels {
         const val DAVINCI_002 = "text-davinci-002"
 
         /**
-         *
          * Most capable GPT-3 model. Can do any task the other models can do, often with higher quality,
          * longer output and better instruction-following. Also supports inserting completions within text.
          * Good at: Complex intent, cause and effect, summarization for audience
